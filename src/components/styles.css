@@ -44,7 +44,7 @@
             /* We give it width as 400% because we are making a  
                4 image carousel. If you want to make for example,  
                5 images carousel, then give width as 500%. */ 
-            width: 700%; 
+            width: 400%; 
             height: 100%; 
             position: relative; 
             /* you can change the animation settings from below */ 
@@ -86,21 +86,11 @@
            Make modification according to your needs. */ 
            @keyframes slideshow {
             0%   { left: 0; }
-            8%  { left: 0; }
-	        14%  { left: -100%; }
-            23%  { left: -100%; }
-	        28%  { left: -200%; }
-            35%  { left: -200%; }
-            45%  { left: -300%; }
-            49%  { left: -300%; }
-            60%  { left: -400%; }
-            68%  { left: -400%; }
-            75%  { left: -500%; }
-            82%  { left: -500%; }
-            89%  { left: -600%; }
-            95%  { left: -600%; }
+            25%  { left: -100%; }
+            50%  { left: -200%; }
+            75%  { left: -300%; }
             100% { left: 0; }
-        }
+          }
         @keyframes slideshow-blog {
             0%   { left: 0; }
         }

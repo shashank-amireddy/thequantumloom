@@ -8,7 +8,7 @@ export default () => {
           <div className="slideshow-wrapper">
 
 
-            <div className="slide">
+            {/* <div className="slide">
               <div className="mt-8">
                 <div className="flex flex-wrap">
                   <div className="flex items-center text-sm font-medium text-primary dark:text-white">
@@ -29,7 +29,7 @@ export default () => {
                 </p>
                 <div className="h-[170px]"></div>
               </div>
-            </div>
+            </div> */}
 
 
             <div className="slide">
@@ -75,7 +75,7 @@ export default () => {
             </div>
 
 
-            <div className="slide">
+            {/* <div className="slide">
               <div className="mt-8">
                 <div className="flex flex-wrap">
                   <div className="flex items-center text-sm font-medium text-primary dark:text-white">
@@ -94,7 +94,8 @@ export default () => {
                 providing a novel way to visualize sorting processes.
                 </p>
               </div>
-            </div>
+            </div> */}
+
             <div className="slide">
               <div className="mt-8">
                 <div className="flex flex-wrap">
@@ -119,7 +120,7 @@ export default () => {
               </div>
             </div>
 
-            <div className="slide">
+            {/* <div className="slide">
               <div className="mt-8">
                 <div className="flex flex-wrap">
                   <div className="flex items-center text-sm font-medium text-primary dark:text-white">
@@ -141,7 +142,7 @@ export default () => {
                 </p>
                 <div className="h-[170px]"></div>
               </div>
-            </div>
+            </div> */}
 
             <div className="slide">
               <div className="mt-8">

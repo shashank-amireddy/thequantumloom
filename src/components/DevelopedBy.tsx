@@ -135,7 +135,7 @@ export default CoolTextAnimation;
 //       <div className="absolute inset-x-0 bottom-1 mb-8 font-mono text-neutral-10 text-xs text-center">
 //         <span style={{ color: `rgb(var(--${titleIndex % 2 === 0 ? "neutral" : "primary"}-9))` }}>
 //           <a
-//             href="https://github.com/flamrdevs"
+//             href="https://github.com/shashank-amireddy"
 //             className="inline-block transition duration-300 hover:-translate-y-px outline-none hover:text-primary-10 focus-visible:text-primary-10"
 //             target="_blank"
 //             rel="noopener noreferrer"
