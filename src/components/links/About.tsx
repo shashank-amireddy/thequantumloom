@@ -1,7 +1,7 @@
 // TODO : update about
 
-import { Avatar, Button } from "./../ui";
-import { Lucide, Simple } from "./../icons";
+import { Avatar} from "./../ui";
+import { Lucide } from "./../icons";
 
 export default () => {
   return (
