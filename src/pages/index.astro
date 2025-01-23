@@ -74,15 +74,23 @@ import Blog from "~/components/Blog.tsx";
   }
 
   .card::after {
-    z-index: -1;
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: url("/nnnoise.svg");
-    overflow: hidden;
+  z-index: -1;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url("/nnnoise.svg");
+  overflow: hidden;
+}
+
+/* Add opacity specifically for Firefox */
+@supports (-moz-appearance: none) {
+  .card::after {
+    opacity: 0.2;
   }
+}
+
 </style>
 
