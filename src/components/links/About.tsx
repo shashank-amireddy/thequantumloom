@@ -2,7 +2,7 @@
 
 import { Avatar} from "./../ui";
 import { Lucide } from "./../icons";
-
+import '../../styles/globals.css';
 export default () => {
   return (
     <div className="flex flex-col items-start gap-6 lg:gap-8 px-3 lg:px-6 py-4">
@@ -13,7 +13,7 @@ export default () => {
 
         <div className="flex flex-col items-start gap-2">
           <h1 className="font-medium text-lg lg:text-xl">Shashank Reddy</h1>
-          <h2 className="font-medium text-2xl lg:text-3xl">a.k.a Quan7umL00m</h2>
+          <h2 className="font-medium text-2xl lg:text-3xl">a.k.a <span className="text-primary-10">Quan7umL00m</span></h2>
         </div>
       </div>
 
