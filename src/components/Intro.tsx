@@ -23,10 +23,10 @@ export default () => {
         Hey, welcome to my site!
       </p>
       <p className="mt-4 text-xl text-zinc-500  className font-light lg:text-xl">
-      Embracing the art of cryptography, I actively compete in CTF challenges alongside team bi0sblr, diving into the depths of cybersecurity.
+      I’m currently playing CTFs with bi0sblr while exploring cryptography, blockchain development, and security. It’s been a thrilling ride so far, and I love tackling challenges that push my understanding further.
         <br />
         <br />
-        Driven by an unwavering passion for computer science, I constantly push boundaries, seeking innovation and growth in every project I undertake.
+        When I’m not deep into code, I’m either reading or admiring watches. I mostly read self-help and some fiction—my last read was How to Lie with Statistics because numbers do lie.
       </p>
     </div>
   );
