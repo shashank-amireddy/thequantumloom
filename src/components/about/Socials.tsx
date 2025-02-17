@@ -1,5 +1,5 @@
-import { cn } from "./../ui/utils.ts";
-import { Simple } from "./../icons";
+import { cn } from "../ui/utils.ts";
+import { Simple } from "../icons/index.ts";
 
 
 const socials = [

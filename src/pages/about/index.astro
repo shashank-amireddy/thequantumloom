@@ -3,11 +3,12 @@ import MainLayout from "~/layouts/MainLayout.astro";
 
 import { Separator } from "~/components/ui";
 
-import About from "~/components/links/About.tsx";
-import Projects from "~/components/links/Projects.tsx";
+import About from "~/components/about/About.tsx";
+import Projects from "~/components/about/Projects.tsx";
 // import Stacks from "~/components/Stacks.tsx";
-import Socials from "~/components/links/Socials.tsx";
-import DevelopedBy from "~/components/links/DevelopedBy.tsx";
+import Socials from "~/components/about/Socials.tsx";
+import DevelopedBy from "~/components/about/DevelopedBy.tsx";
+import WebRing from "~/components/webring.tsx";
 ---
 
 <MainLayout>
@@ -25,12 +26,13 @@ import DevelopedBy from "~/components/links/DevelopedBy.tsx";
     <Separator className="my-8" />
 
     <DevelopedBy />
+    <WebRing />
   </main>
 </MainLayout>
 
 <style>
   :global(body) {
-    position: relative; /* Ensure the pseudo-element is positioned relative to the body */
+    position: relative; 
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

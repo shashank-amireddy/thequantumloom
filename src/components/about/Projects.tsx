@@ -1,6 +1,6 @@
-import { IconButton } from "./../ui";
-import { cn } from "./../ui/utils.ts";
-import { Lucide } from "./../icons";
+import { IconButton } from "../ui/index.ts";
+import { cn } from "../ui/utils.ts";
+import { Lucide } from "../icons/index.ts";
 
 const projects = [
   {

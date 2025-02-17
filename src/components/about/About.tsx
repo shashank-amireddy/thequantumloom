@@ -1,7 +1,7 @@
 // TODO : update about
 
-import { Avatar} from "./../ui";
-import { Lucide } from "./../icons";
+import { Avatar} from "../ui";
+import { Lucide } from "../icons";
 import '../../styles/globals.css';
 export default () => {
   return (

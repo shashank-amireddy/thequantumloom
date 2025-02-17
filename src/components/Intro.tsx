@@ -26,7 +26,13 @@ export default () => {
       I’m currently playing CTFs with bi0sblr while exploring cryptography, blockchain development, and security. It’s been a thrilling ride so far, and I love tackling challenges that push my understanding further.
         <br />
         <br />
-        When I’m not deep into code, I’m either reading or admiring watches. I mostly read self-help and some fiction—my last read was How to Lie with Statistics because numbers do lie.
+        When I’m not deep into code, I’m either reading or admiring watches. I mostly read self-help and some fiction—my last read was How to Lie with Statistics because numbers do lie. &nbsp;
+        <a
+          href="/about"
+          className="inline-block transition duration-300 hover:-translate-y-px outline-none text-primary-10"
+        >
+           Click here to know more!
+        </a>
       </p>
     </div>
   );
