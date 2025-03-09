@@ -98,4 +98,5 @@ const selectLastNDays = (contributions:any) => {
     })
 }
 
+
 export default GithubCalendar
